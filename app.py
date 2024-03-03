@@ -128,7 +128,7 @@ def main():
         if create_music_mashup('AIzaSyAzrMmAAgGJygxEkBI96aGVLTekpB_LkcY', artist_name, num_videos, audio_duration, output_filename):
             send_email(receiver_email, output_filename)
             st.success("Mashup created and sent to your email!")
-            st.success("Please do check in your spam folder. It will be from mail id : noreply.bhavyabhalla@gmail.com")
+            st.success("Please do check in your spam folder. It will be from mail id : noreply.suhawni.0810@gmail.com")
         else:
             st.error("Error occurred while generating mashup.")
 
